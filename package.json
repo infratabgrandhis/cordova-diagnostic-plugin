@@ -1,5 +1,5 @@
 {
-    "name": "cordova-diagnostic-plugin",
+    "name": "@grandhi/cordova-diagnostic-plugin",
     "version": "1.0.0",
     "description": "Plugin for cordova diagnostic",
     "scripts": {
