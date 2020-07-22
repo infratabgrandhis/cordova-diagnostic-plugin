@@ -1,0 +1,49 @@
+{
+    "name": "cordova-diagnostic-plugin",
+    "version": "1.0.0",
+    "description": "Plugin for cordova diagnostic",
+    "scripts": {
+      "postinstall": "node ./scripts/apply-modules.js"
+    },
+    "cordova": {
+        "id": "cordova.plugins.diagnostic",
+        "platforms": [
+            "android",
+            "ios",
+            "windows"
+        ]
+    },
+    "keywords": [
+          "ecosystem:cordova",
+          "cordova",
+          "android",
+          "ios",
+          "windows",
+          "phonegap",
+          "diagnostic",
+          "wifi",
+          "location",
+          "gps",
+          "camera",
+          "bluetooth",
+          "settings"
+    ],
+    "types": "./cordova.plugins.diagnostic.d.ts",
+    "dependencies": {
+        "colors": "^1.1.2",
+        "elementtree": "^0.1.6",
+        "minimist": "1.2.0"
+    },
+    "engines": {
+        "cordovaDependencies": {
+            "4.0.0": {
+                "cordova-ios": ">=4.3.0",
+                "cordova-android": ">=6.3.0",
+                "cordova": ">=7.1.0"
+            }
+        }
+    },
+    "author": "infratabgrandhis",
+    "license": "ISC"
+  }
+  
