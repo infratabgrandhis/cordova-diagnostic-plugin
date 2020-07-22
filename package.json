@@ -34,6 +34,10 @@
         "elementtree": "^0.1.6",
         "minimist": "1.2.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/infratabgrandhis/cordova-diagnostic-plugin"
+    },
     "engines": {
         "cordovaDependencies": {
             "4.0.0": {
